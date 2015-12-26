@@ -540,7 +540,7 @@ configuration file is with ``HTTP_GITWEB_CONFIG``. The wrapper script,
 in turn, will forward these informations to both GitWeb and to its
 config file.
 
-Now, let's create GitWeb configuration file. Just
+Now, let's create a GitWeb configuration file. Just
 copy ``gitweb_config.perl`` provided with this guide to
 ``${GIT_REPOS_ROOT}/gitweb_config.perl`` or create an empty file in
 that path location with the following contents:
