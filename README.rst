@@ -484,7 +484,7 @@ Unpack it, build GitWeb::
 
     tar zxvf git-1.7.1.1.tar.gz
     cd git-1.7.1.1
-    make prefix=/usr/bin gitweb/gitweb.cgi
+    make prefix=/usr/bin gitweb
     rm gitweb/gitweb.perl # we won't need it
 
 We will install it into ``~/gitweb/``::
